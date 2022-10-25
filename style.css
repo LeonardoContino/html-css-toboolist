@@ -78,9 +78,9 @@ section{
     padding: 2px;
     width: 5px;
     height: 5px;
-    
     border-radius: 50%;
     color: green;
+    margin-right: 5px;
 }
 .x{
     color: red;
