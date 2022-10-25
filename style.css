@@ -74,13 +74,16 @@ section{
 }
 h4{
     font-weight: lighter;
-    display: inline;
-
-    
+    display: inline; 
 }
 .mark{
     display: inline-block;
     background-color: #2084ff;
     padding: 5px;
     border-radius: 10px;
+    margin-top: 10px;
+}
+/* colormark */
+.q1{
+    background-color: blueviolet;
 }
