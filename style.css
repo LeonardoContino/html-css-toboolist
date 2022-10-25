@@ -40,7 +40,8 @@ h1{
     border-radius: 5px;
     padding-top: 10px;
     padding-left: 20px;
-    border
+    margin-bottom: 2px;
+    
 }
 .add{
     display: inline-block;
@@ -54,4 +55,11 @@ h1{
     color: gray;
     background-color: white;
     border: solid 1px;
+}
+.secondaparte{
+    background-color: white;
+    height: 500px;
+    padding-top: 80px;
+    padding-left: 50px;
+    border-radius: 5px;
 }
