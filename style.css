@@ -7,10 +7,11 @@
 }
 body{
     margin-top: 10px;
-    margin-left: 15px;
+    
 }
 header{
     margin-top: 0px;
+    margin-left: 15px;
 }
 main{
     margin-top: 10px;
@@ -76,8 +77,8 @@ section{
     display: inline;
     border: solid 2px;
     padding: 2px;
-    width: 5px;
-    height: 5px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     color: green;
     margin-right: 5px;
