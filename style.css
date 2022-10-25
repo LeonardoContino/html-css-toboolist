@@ -72,6 +72,17 @@ section{
 .sottotitolo{
     margin-bottom: 20px;
 }
+.circle{
+    display: inline;
+    border: solid 2px;
+    padding: 2px;
+    width: 5px;
+    height: 5px;
+    
+    border-radius: 50%;
+    color: green
+    ;
+}
 h4{
     font-weight: lighter;
     display: inline; 
