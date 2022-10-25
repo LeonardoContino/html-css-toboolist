@@ -80,8 +80,10 @@ section{
     height: 5px;
     
     border-radius: 50%;
-    color: green
-    ;
+    color: green;
+}
+.x{
+    color: red;
 }
 h4{
     font-weight: lighter;
