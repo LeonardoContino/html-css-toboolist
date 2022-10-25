@@ -58,7 +58,7 @@ h1{
 }
 .secondaparte{
     background-color: white;
-    height: 500px;
+    height: 600px;
     padding-top: 80px;
     padding-left: 50px;
     border-radius: 5px;
@@ -86,4 +86,19 @@ h4{
 /* colormark */
 .q1{
     background-color: blueviolet;
+}
+.recruiting{
+    background-color: green;
+}
+.mobile{
+    background-color: yellowgreen;
+}
+.web{
+    background-color: violet;
+}
+.sales{
+    background-color: greenyellow;
+}
+.editorial{
+    background-color: orange;
 }
