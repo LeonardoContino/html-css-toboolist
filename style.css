@@ -6,27 +6,28 @@
 
 }
 body{
-    margin-top: 10px;
+    
+    background-color: lightgray;
     
 }
+.container{
+    width: 50%;
+    margin: 0 auto;
+}
 header{
-    margin-top: 0px;
-    margin-left: 15px;
+    background-color: white;
+    line-height: 70px;
+    padding-left: 20px;
+    height: 70px;
+    margin-bottom: 30px;
+    vertical-align: middle;
 }
-main{
-    margin-top: 10px;
-    padding-top: 20px;
-    padding-left: 200px;
-    padding-right: 200px;
-    background-color: lightgray;
-    height: 1000px;
-    width: 1410px;
 
-}
 
 h1{
     display: inline-block;
     font-size: 50px;
+    
     
 }    
 
@@ -34,86 +35,90 @@ h1{
     background-color: white;
     height: 70px;   
 }
-
-.primaparte{
-   height: 60px;
-    background-color: white;
+/* card */
+.card{
     border-radius: 5px;
-    padding-top: 10px;
-    padding-left: 20px;
-    margin-bottom: 2px;
+    background-color: white;
+}
+.card-header{
+    padding: 10px 30px;
+    border-bottom: 2px solid lightgray;
+}
+.card-body{
+    padding: 10px 30px;
+}
+/* bottoms */
+.btn{
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    
     
 }
-.add{
-    display: inline-block;
+.btn.btn-primary{
     color: white;
-    background-color: rgb(22, 143, 219);
-    line-height: 30px;
-    border-radius: 5px;
-    padding: 5px;
+    background-color: #1e90ff;
+    border-color: #1e90ff;
 }
-#add2{
+.btn.btn-outline{
     color: gray;
     background-color: white;
-    border: solid 1px;
+    border-color: currentColor;
 }
-.secondaparte{
-    background-color: white;
-    height: 600px;
-    padding-top: 80px;
-    padding-left: 50px;
-    border-radius: 5px;
+/* list style */
+ul{
+    list-style-type: none;
 }
-section{
-    margin-bottom: 20px;
+.task-item{
+    height: 40px;
+    line-height: 40px;
 }
-#freccia{
-    font-size: small;  
-}
-.sottotitolo{
-    margin-bottom: 20px;
-}
-.circle{
-    display: inline-block;
-    border: solid 2px;
-    padding-left: 4px;
-    padding-top: 2px;
-    width: 25px;
-    height: 25px;
+.task-status{
+    width: 15px;
+    height: 15px;
+    border: 1px solid currentColor;
     border-radius: 50%;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 15px;
+    vertical-align: middle;
+    text-align: center;
     color: green;
-    margin-right: 5px;
 }
-.x{
+.task-text{
+    vertical-align: middle;
+}
+.task-status.done{
+    color: green;
+}
+.task-status.undone{
     color: red;
 }
-h4{
-    font-weight: lighter;
-    display: inline; 
-}
-.mark{
-    display: inline-block;
-    background-color: #2084ff;
-    padding: 5px;
+/* badges */
+.badge{
+    color: white;
     border-radius: 10px;
-    margin-top: 10px;
+    font-size: 10px;
+    padding: 5px 10px;
+    line-height: 15px;
+    vertical-align: middle;
 }
-/* colormark */
-.q1{
-    background-color: blueviolet;
+/* color badge */
+.bg-purple{
+    background-color: #9c72e4;
 }
-.recruiting{
-    background-color: green;
+.bg-green{
+    background-color: #64c0a9;
 }
-.mobile{
-    background-color: yellowgreen;
-}
-.web{
-    background-color: violet;
-}
-.sales{
-    background-color: greenyellow;
-}
-.editorial{
+.bg-orange{
     background-color: orange;
+}
+.bg-lightgreen{
+    background-color: lightgreen;
+}
+.bg-pink{
+    background-color: pink;
+}
+.bg-blue{
+    background-color: #1e90ff;
 }
